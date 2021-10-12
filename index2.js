@@ -5,7 +5,7 @@ let stocks = {
   toppings: ['chocolate', 'peanuts'],
 };
 
-const is_shop_open = false;
+const is_shop_open = true;
 
 let order = (time, work) => {
   return new Promise((resolve, reject) => {
